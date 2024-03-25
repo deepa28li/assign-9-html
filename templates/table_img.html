@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1><i>Indian Actress</i></h1>
+    <table border='2px' cellpadding='5px' cellspacing='5px'>
+		<tr>
+			<th>Srno</th>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Desg</th>
+			<th>Image</th>
+		</tr>
+		<tr>
+			<td>01</td>
+			<td>Alia Bhatt </td>
+			<td>25</td>
+			<td>Actress</td>
+			<td><img src="{% static 'images/alia.jpg' %}" heigth=50px width=50px></td>
+		</tr>
+		<tr>
+			<td>02</td>
+			<td>Genelia DEshmukh</td>
+			<td>39</td>
+			<td>Actress</td>
+			<td><img src="{% static 'images/genelia.jpg' %}"  height="50px" width="50px"></td>
+			
+		</tr>
+		<tr>
+			<td>03</td>
+			<td>M S Dhoni</td>
+			<td>55</td>
+			<td>Cricketer</td>
+			<td><img src="{% static 'images/msd.jpg' %}"  height="50px" width="50px"></td>
+		</tr>
+		<tr>
+			<td>04</td>
+			<td>Raghav Juyal</td>
+			<td>29</td>
+			<td>Dancer</td>
+			<td><img src="{% static 'images/ragv.jpg' %}"  height="50px" width="50px"></td>
+		</tr>
+		<tr>
+			<td>05</td>
+			<td>Ritesh Deshmukh</td>
+			<td>50</td>
+			<td>Actor and Director</td>
+			<td><img src="{% static 'images/Ritesh.jpg' %}"  height="50px" width="50px"></td>
+		</tr>
+	</table>
+    </center>
+</body>
+</html>
